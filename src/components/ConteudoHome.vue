@@ -1,6 +1,6 @@
 <template>
 
-    <section class="justify-center h-screen flex mt-[75px] p-0  mb-20 w-25 h-[525px] ">
+    <section class="justify-center flex mt-[75px] p-0  mb-20 w-25 h-[525px] ">
         <div class=" flex-col justify-center flex">
             <div class="ml-8 p-2 mt-5">
                 <span class="text-5xl">Welcome!</span>
