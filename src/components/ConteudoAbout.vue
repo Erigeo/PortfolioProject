@@ -1,7 +1,7 @@
 <template>
-    <section class="justify-center  flex p-8 mb-4 p-0  mb-15 w-25 h-[500px]">
-        <div class=" flex-col">
-            <div class="ml-20 p-2">
+    <section class="justify-center items-center flex w-25 h-[500px]  bg-red-100">
+        <div class=" flex-col justify-center items-center flex bg-green-100">
+            <div class="flex-row justify-center">
                 <span class="text-5xl">Who am I? &lt;+_+&gt;</span>
                 <svg v-if="darkMode" class="h-[90px] inline mt-5" viewBox="0 0 128 128" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -16,7 +16,7 @@
 
             </div>
 
-            <p class="overflow-wrap break-word max-w-[600px] mt-2  font-fonteP "> 
+            <p class="overflow-wrap break-word max-w-[600px] mt-2  font-fonteP text-xl  "> 
                 I am a Software Engineering student at the Instituto Metrópole Digital (IMD) at UFRN, and I am currently a research fellow at brazilian National Institute for Space Research (INPE). I am always seeking new opportunities that challenge me to grow. I have a passion for cats, video games, and Java programming. My goal is to look back on my journey with pride at every step I take
             </p>
 
@@ -24,7 +24,7 @@
 
 
         </div>
-        <div class="mr-[10px] mt-[150px]">
+        <div class="absolute ml-[700px]  ">
             <svg class="h-[100px]" viewBox="0 0 109 93" fill="#fff" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect id="gato 1" width="109" height="93" fill="url(#pattern0)" />

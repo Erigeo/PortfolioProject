@@ -1,6 +1,6 @@
 <template>
    
-   <section class="justify-center  flex p-10 flex-col">
+   <section class="justify-center  flex  flex-col bg-purple-100 w-25 h-[525px]">
 
     <p class="text-4xl justify-center flex">My Skills</p>
     
