@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-auto h-[100px] bg-green-200">
+    <footer class="w-auto h-[100px]  flex items-center  justify-center">
         <span>made by ERIGEO</span>
     </footer>
 

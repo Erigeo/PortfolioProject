@@ -1,5 +1,5 @@
 <template>
-    <section class="justify-center h-screen flex p-8 mb-4 p-0  mb-15 w-25 h-[575px]">
+    <section class="justify-center  flex p-8 mb-4 p-0  mb-15 w-25 h-[500px]">
         <div class=" flex-col">
             <div class="ml-20 p-2">
                 <span class="text-5xl">Who am I? &lt;+_+&gt;</span>

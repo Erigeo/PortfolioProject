@@ -4,6 +4,7 @@
     <ConteudoHome :dark-mode="dataDark"/>
     <ConteudoTechs :dark-mode="dataDark"/>
     <ConteudoAbout :dark-mode="dataDark"/>
+    <ConteudoProjects :dark-mode="dataDark"/>
     <FooterFixed/>
   </main>
 </template>
@@ -15,13 +16,14 @@ import ConteudoHome from './components/ConteudoHome.vue';
 import FooterFixed from './components/FooterFixed.vue';
 import ConteudoAbout from './components/ConteudoAbout.vue';
 import ConteudoTechs from './components/ConteudoTechs.vue';
+import ConteudoProjects from './components/ConteudoProjects.vue';
 
 
 
 
 export default defineComponent({
     name: 'App',
-    components: { NavBarTeste, ConteudoHome, FooterFixed, ConteudoAbout, ConteudoTechs },
+    components: { NavBarTeste, ConteudoHome, FooterFixed, ConteudoAbout, ConteudoTechs, ConteudoProjects },
     setup(){
       const dataDark = ref(false)
 
